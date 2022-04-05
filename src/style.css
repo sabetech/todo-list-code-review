@@ -1,0 +1,100 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+.clear-all-selected {
+  width: 100%;
+  text-align: center;
+  padding-top: 22px;
+  height: 30px;
+  background-color: rgb(243, 239, 239);
+}
+
+.clear-all-selected:hover {
+  background-color: rgb(235, 230, 230);
+  cursor: pointer;
+}
+
+.clear-all-selected:focus {
+  background-color: rgb(211, 208, 208);
+  cursor: pointer;
+}
+
+img {
+  width: auto;
+  height: 20px;
+  align-self: center;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.main-app {
+  padding: 1%;
+  width: 60%;
+  height: 50%;
+  box-shadow: 4px 4px 34px -8px rgba(0, 0, 0, 0.4);
+}
+
+input[type="text"] {
+  border: 0;
+}
+
+.type-todo-here {
+  font-style: italic;
+  font-size: 16px;
+  height: 30px;
+  width: 80%;
+  padding: 5px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.todo-desc {
+  font-size: 18px;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.strikethrough-text {
+  text-decoration: line-through;
+}
+
+.list-action-icon {
+  margin-left: auto;
+}
+
+.li-background-highlight-edit {
+  background-color: bisque;
+}
